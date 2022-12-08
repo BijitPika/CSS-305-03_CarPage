@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main{
+            width: 90%;
+            height: 90%;
+            display: flex;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+
+        .parent{
+            width: 33.33%;
+            height: 100%;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .parent1{
+            background-color: #e38826;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .parent2{
+            background-color: #006970;
+        }
+
+        .parent3{
+            background-color: #004241;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .child{
+            width: 100%;
+            height: 20%;
+            padding: 2rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+
+        button{
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            border: none;
+            outline: none;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        .sedan{
+            width: 50px;
+            height: 40px;
+            background-color: white;
+            opacity: 30%;
+            border-radius: 50px;
+            position: relative;
+            margin-right: 300px;
+            margin-top: 40px;
+        }
+       .sdn{
+        width: 50px;
+        position: relative;
+        margin-bottom: 60px;
+        margin-left: 20px;
+       }
+
+        
+
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="parent parent1">
+            <div class="sedan">
+                <img class="sdn"; src="./sedan.png">
+            </div>
+            <div class="child child1"></div>
+            <div class="child child2">SEDANS</div>
+            <div class="child child3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque itaque magni mollitia recusandae? Assumenda ea molestiae laudantium ex veritatis.
+            </div>
+            <div class="child child4">
+                <button>
+                    Learn more
+                </button>
+            </div>
+        </div>
+        <div class="parent parent2">
+            <div class="sedan"></div>
+         <div class="child child1"></div>
+            <div class="child child2">SUVS</div>
+            <div class="child child3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque itaque magni mollitia recusandae? Assumenda ea molestiae laudantium ex veritatis.
+            </div>
+            <div class="child child4">
+                <button>
+                    Learn More
+                </button>
+            </div>
+        </div>
+        <div class="parent parent3">
+            <div class="sedan"></div>
+         <div class="child child1"></div>
+            <div class="child child2">LUXURY</div>
+            <div class="child child3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque itaque magni mollitia recusandae? Assumenda ea molestiae laudantium ex veritatis.
+            </div>
+            <div class="child child4">
+                <button>
+                    Learn More
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
